@@ -3,7 +3,7 @@
 
 
 ## Project Stages
-![alt text](/Youtube-Transcript-Summerizer-Chrome-Extension-/images/stages.png?raw=true)
+![alt text](/images/stages.png?raw=true)
 
 
 ## Features  
@@ -16,7 +16,7 @@
 
 
 ## Output Screenshot
-![alt text](/Youtube-Transcript-Summerizer-Chrome-Extension-/images/output.png?raw=true)
+![alt text](/images/output.png?raw=true)
 
 ## Installation
 - Clone this repository to your local machine:
