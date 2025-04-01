@@ -3,7 +3,7 @@
 
 
 ## Project Stages
-![alt text](/extention/images/stages.png?raw=true)
+![alt text](/images/stages.png?raw=true)
 
 
 ## Features  
@@ -16,7 +16,7 @@
 
 
 ## Output Screenshot
-![alt text](/extention/images/output.png?raw=true)
+![alt text](/images/output.png?raw=true)
 
 ## Installation
 - Clone this repository to your local machine:
@@ -45,11 +45,4 @@
   - All Done..!!
 
 
-## Contribution
-Contributions to this project are *welcome!* If you wish to contribute, please follow these steps:
-- Fork the repository.
-- Create a new branch for your features or fixes.
-- Make your changes and commit them.
-- Push your changes to your fork.
-- Create a Pull Request from your fork to this repository.
-- Make sure to update the ```Requirements.txt``` file if you've added any new dependencies.
+
