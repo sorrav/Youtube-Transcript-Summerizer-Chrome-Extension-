@@ -13,6 +13,11 @@ A full-stack application that summarizes YouTube video transcripts using AI. Fea
 
 ## ScreenShots
 
+
+<img width="1523" height="899" alt="Screenshot 2025-11-23 192431" src="https://github.com/user-attachments/assets/ed5c8f04-21fb-4d71-8262-f4f8d36ad4e7" />
+<img width="1709" height="966" alt="Screenshot 2025-11-23 192531" src="https://github.com/user-attachments/assets/5b7ca6cf-10e3-4c77-989a-a0196b1a3860" />
+
+
 ## Installation
 
 ### 1. Clone Repository
