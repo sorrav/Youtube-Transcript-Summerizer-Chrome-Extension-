@@ -1,0 +1,83 @@
+# =========================================
+# GLOBAL / OS
+# =========================================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# =========================================
+# NODE.JS (backend + chrome extension popup)
+# =========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+dist/
+build/
+.cache/
+.eslintcache
+
+# Vite
+.vite/
+vite.svg
+
+# =========================================
+# REACT (web-app)
+# =========================================
+web-app/node_modules/
+web-app/dist/
+web-app/.vite/
+
+# =========================================
+# PYTHON (microservice)
+# =========================================
+python-microservice/__pycache__/
+python-microservice/**/*.pyc
+python-microservice/.pytest_cache/
+python-microservice/.mypy_cache/
+python-microservice/venv/
+python-microservice/env/
+python-microservice/.env
+
+# =========================================
+# ENV FILES (ALL SUBPROJECTS)
+# =========================================
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# =========================================
+# CHROME EXTENSION
+# =========================================
+chrome-extension/node_modules/
+chrome-extension/dist/
+chrome-extension/build/
+chrome-extension/**/*.zip
+
+# =========================================
+# EDITOR / IDE
+# =========================================
+.vscode/
+.idea/
+
+# =========================================
+# LINT / TOOLING
+# =========================================
+coverage/
+*.coverage
+.nyc_output
+.jest/
+
+# =========================================
+# MISC
+# =========================================
+*.sqlite
+*.db
+cookies.txt

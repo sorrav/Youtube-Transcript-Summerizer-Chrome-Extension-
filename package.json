@@ -1,0 +1,22 @@
+{
+  "name": "youtube-transcript-summarizer",
+  "version": "1.0.0",
+  "description": "YouTube Transcript Summarizer - Full Stack",
+  "scripts": {
+    "install-all": "npm run install-node && npm run install-web",
+    "install-node": "cd nodejs-backend && npm install",
+    "install-web": "cd web-app && npm install",
+    "install-python": "cd python-microservice && pip install -r requirements.txt",
+    
+    "dev": "concurrently \"npm run dev-python\" \"npm run dev-node\" \"npm run dev-web\"",
+    
+    "dev-python": "cd python-microservice && uvicorn main:app --reload --host 0.0.0.0 --port 8000",
+    "dev-node": "cd nodejs-backend && npm run dev",
+    "dev-web": "cd web-app && npm run dev",
+    
+    "start": "npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
